@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.basavaraj1985</groupId>
-    <artifactId>useDolphinNG</artifactId>
+    <artifactId>UseDolphinNG</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>useDolphinNG</name>
+    <name>UseDolphinNG</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -36,8 +36,6 @@
     </repositories>
 
     <build>
-        <!--<sourceDirectory>src/main/java</sourceDirectory>-->
-        <!--<testSourceDirectory>src/test/java</testSourceDirectory>-->
         <resources>
             <resource>
                 <directory>resources</directory>
