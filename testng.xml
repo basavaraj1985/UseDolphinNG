@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="useDolphinNG">
+    <test name="useDolphinNG" parallel="true" thread-count="20">
+        <classes>
+            <class name="com.github.basavaraj1985.AppTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.javasbar.framework.testng.reporters.TimeoutRetryAnalyzer" />
+        <listener class-name="com.javasbar.framework.testng.reporters.ProgressReporter" />
+        <listener class-name="com.javasbar.framework.testng.reporters.RuleBasedStatusModifier" />
+        <listener class-name="com.javasbar.framework.testng.reporters.SmartReporter" />
+        <listener class-name="org.testng.reporters.EmailableReporter" />
+    </listeners>
+</suite>
